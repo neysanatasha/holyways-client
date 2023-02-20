@@ -1,0 +1,52 @@
+.main-container2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: whitesmoke; */
+}
+
+.section-1{
+    width: 50%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.section-2{
+    width: 50%;
+    margin-top: 100px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.side-to-side1 {
+    display: flex;
+    width: 100%;
+}
+
+.left-side1 {
+    width: 100%;
+}
+
+.right-side1 {
+    width: 100%;
+    margin-right: 200px;
+    padding-left: 10px;
+}
+
+.my-profile {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.history-donation {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.status {
+    padding: 5px 30px 5px;
+    background-color: rgb(223, 255, 223);
+    border-radius: 8px;
+    margin-left:150px;
+}
