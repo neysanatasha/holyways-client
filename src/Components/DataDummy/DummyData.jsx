@@ -8,19 +8,19 @@ export default
         dummyImg : dummySatu,
         title: "The Stength of People. Power of Comunity",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, blanditiis.",
-        fund: "25.000.000"
+        fund: "90.000.000"
     },
     {
         dummyImg : dummyDua,
         title: "Empowering Communities Ending Poverty",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, blanditiis.",
-        fund: "50.000.000"
+        fund: "80.000.000"
     },
     {
         dummyImg : dummyTiga,
         title: "Please our brothers in flores",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, blanditiis.",
-        fund: "100.000.000"
+        fund: "210.000.000"
     },
     
 ]

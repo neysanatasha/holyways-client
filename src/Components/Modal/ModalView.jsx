@@ -9,19 +9,6 @@ const ModalView = ({ showView, setShowView, name, date, total, status }) => {
     <>
       <Modal show={showView} onHide={() => setShowView(false)} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
         <Modal.Body>
-            {/* <Form.Group
-              className="mb-3 mt-3"
-              controlId="exampleForm.ControlInput1"
-            >
-              <Form.Control
-                type="number"
-                placeholder="Nominal Donation"
-                name="email"
-                // onChange={handleChange}
-                className="bg-light"
-                autoFocus
-              />
-            </Form.Group> */}
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>

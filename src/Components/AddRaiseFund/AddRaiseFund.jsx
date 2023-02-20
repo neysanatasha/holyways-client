@@ -19,8 +19,6 @@ const AddRaiseFund = () => {
     description: "",
   });
 
-  // const {title, thumbnail, goals, description} = form
-
   const handleChange = (event) => {
     setForm({
       ...form,
@@ -51,7 +49,6 @@ const AddRaiseFund = () => {
       formData.set("thumbnail", form.thumbnail[0], form.thumbnail[0].name)
       formData.set("goals", form?.goals)
       formData.set("description", form?.description)
-
       console.log(form);
       
       const response = await API.post("/fund", formData, config);
@@ -59,7 +56,6 @@ const AddRaiseFund = () => {
 
       navigate("/raisefund");
 
-      // Handling response here
     } catch (error) {
       const alert = (
         <Alert variant="danger" className="py-1">

@@ -2,17 +2,17 @@ export default
 [
     {
         name: "Baim Wong",
-        date: "Saturday, 12 April 2021",
-        total: "45.000.000"
+        date: "Wednesday, 03 November 2022",
+        total: "60.000.000"
     },
     {
         name: "Rafi Ahmad",
-        date: "Saturday, 12 April 2021",
-        total: "100.000.000"
+        date: "Wednesday, 03 November 2022",
+        total: "150.000.000"
     },
     {
         name: "Deni Cagur",
-        date: "Saturday, 12 April 2021",
-        total: "50.000.000"
+        date: "Wednesday, 03 November 2022",
+        total: "35.000.000"
     },
 ]

@@ -1,18 +1,18 @@
 export default
 [
     {
-        name: "Andi",
-        date: "Saturday, 12 April 2021",
-        total: "45.000"
+        name: "Adit",
+        date: "Friday, 04 November 2022",
+        total: "50.000"
     },
     {
-        name: "Asep",
-        date: "Saturday, 12 April 2021",
-        total: "45.000"
+        name: "Sopo",
+        date: "Friday, 04 November 2022",
+        total: "50.000"
     },
     {
-        name: "Ekoy",
-        date: "Saturday, 12 April 2021",
-        total: "45.000"
+        name: "Jarwo",
+        date: "Friday, 04 November 2022",
+        total: "50.000"
     },
 ]

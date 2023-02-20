@@ -11,8 +11,6 @@ const ModalDonate = ({ showDonate, setShowDonate, funds }) => {
   const [state, dispatch] = useContext(UserContext);
   let navigate = useNavigate();
 
-  // console.log("zzzzzzzzzzzz", funds);
-
   const [form, setForm] = useState({
     donateAmount: 0,
   });
@@ -81,7 +79,7 @@ const ModalDonate = ({ showDonate, setShowDonate, funds }) => {
         },
       });
     } catch (err) {
-      console.log("masuk sin iga",err);
+      console.log("Masuk ga ya?",err);
     }
   });
 
@@ -104,28 +102,6 @@ const ModalDonate = ({ showDonate, setShowDonate, funds }) => {
                 autoFocus
               />
             </Form.Group>
-            {/* <Form.Group className="mb-3 d-flex" controlId="formBasicDonate">
-              <Form.Label
-                className=" bg-danger text-light fw-bold px-3 py-1 mt-3"
-                style={{
-                  borderRadius: "8px",
-                  border: "1px solid",
-                  cursor: "pointer",
-                }}
-              >
-                {" "}
-                Attache Payment <FaFileInvoice variant="light" style={{fontSize:"20px"}}/>
-              </Form.Label>
-              <Form.Control
-                type="file"
-                name="thumbnailPayment"
-                className="bg-dark"
-                hidden
-              />
-              <div className="w-55 ps-2 mt-4">
-                <p className="text-muted" style={{fontSize:"11px"}}>*transfers can be made to holyways accounts</p>
-              </div>
-            </Form.Group> */}
           <Button style={{ width: "100%" }} variant="danger" type="submit">
             Donate
           </Button>

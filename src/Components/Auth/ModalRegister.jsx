@@ -41,7 +41,6 @@ const ModalRegister = ({ registShow, setRegistShow, switchLogin }) => {
 
         // Insert data ke database
         let result = await API.post("/register", body, config);
-        // console.log("ini result", result.data.code);
 
         // Notifikasi
         if (result.data.code === 200) {
@@ -101,7 +100,7 @@ const ModalRegister = ({ registShow, setRegistShow, switchLogin }) => {
             </Form.Group>
             <Form.Group className="mb-3" controlId="phone">
               <Form.Control
-                type="number"
+                type="text"
                 placeholder="Phone Number"
                 name="phone"
                 value={phone}

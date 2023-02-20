@@ -14,7 +14,6 @@ import Swal from "sweetalert2";
 import API from "../../config/api";
 import { useQuery } from "react-query";
 import convertRupiah from "rupiah-format"
-// import ModalLogin from "../Auth/ModalLogin";
 
 const DetailDonate = () => {
   const [showDonate, setShowDonate] = useState(false);
@@ -26,7 +25,6 @@ const DetailDonate = () => {
 
   let { data: funds } = useQuery("fundCache", async () => {
     const response = await API.get("/fund/" + fund_id);
-    // console.log("ini response detail donate", response.data.data);
 
     return response.data.data;
   });
@@ -43,11 +41,6 @@ const DetailDonate = () => {
       navigate("/");
       }
   }, []);
-
-  // console.log(state.isLogin, "ini state")
-  
-
-  // console.log("ini funds :", funds?.[0])
   console.log("ini funds 2:", funds)
 
   return (

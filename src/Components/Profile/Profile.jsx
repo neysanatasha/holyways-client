@@ -25,7 +25,6 @@ const Profile = () => {
     };
 
     const response = await API.get(`/check-auth`, config);
-    // console.log("response transaction", response);
 
     const transaction = await API.get(`/user/${response.data?.data?.id}`);
 

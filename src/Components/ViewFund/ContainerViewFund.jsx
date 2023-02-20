@@ -11,9 +11,7 @@ const ContainerViewFund = () => {
   const [state] = useContext(UserContext);
   let navigate = useNavigate();
   const { fund_id } = useParams();
-
   const [statusPending, setStatusPending] = useState([])
-
 
   let { data: fundsListPending } = useQuery("detailCache", async () => {
     const response = await API.get("/fund/" + fund_id);
@@ -24,14 +22,6 @@ const ContainerViewFund = () => {
     console.log("ini data pending", resultResponsePending);
     return resultResponsePending;
   });
-
-  // fundsListPending?.map((data) => {
-  //   if (data?.status === "pending") {
-  //     setStatusPending.push(`${data?.status}`)
-  //   }
-  // })
-
-  // console.log(statusPending)
 
   return (
     <>
