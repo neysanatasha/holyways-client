@@ -2,7 +2,7 @@ import axios from "axios"
 
 export const API = axios.create({
     baseURL: process.env.REACT_APP_BASEURL,
-    // baseURL: "https://holyways-server-production.up.railway.app/api/v1",
+    // baseURL: "https://holyways-server-production-2cb1.up.railway.app",
 })
 
 export const setAuthToken = (token) => {
